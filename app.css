@@ -1,0 +1,415 @@
+body {
+	margin: 0;
+}
+
+/* CAREER SINGLE CSS */
+.careersMain {
+	font-family: "Poppins", serif;
+	display: flex;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #f1f0ff;
+	padding-top: 30px;
+	padding-bottom: 200px;
+}
+
+.careersMain h1 {
+	font-family: "Inter", sans-serif;
+	color: #3772ff;
+	font-weight: 800;
+	font-size: 50px;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+
+.careersMain h2 {
+	font-family: "Inter", sans-serif;
+	color: #3772ff;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+.careersMain p {
+	text-align: justify;
+	line-height: 32px;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.careersSidebar {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.careersSidebar a {
+	text-decoration: none;
+	gap: 10px;
+	display: flex;
+	color: #3772ff;
+	margin-bottom: 50px;
+}
+
+.careersSidebar div div {
+	background-color: #fff0c2;
+	border-radius: 5px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 7px;
+}
+
+/* .careersSidebar div:nth-child(2) {
+	width: 100px;
+} */
+
+.careersContent {
+	width: 70%;
+}
+
+.careerSocials {
+	margin-bottom: 100px;
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.careerSocials div {
+	height: 43px;
+	width: 43px;
+	background-color: #d5dffa;
+	border-radius: 30%;
+}
+
+.careersApplyButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3772ff;
+	width: 207px;
+	height: 57px;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 80px;
+}
+
+/* MEDIA MAIN CSS */
+.mediaMain {
+	font-family: "Poppins", serif;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 30px;
+	background-color: #f1f0ff;
+}
+
+.mediaMain h1 {
+	margin-top: 28px;
+	margin-bottom: 62px;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 60px;
+}
+
+.mediaTag {
+	color: #007dcc;
+	background-color: #007dcc1a;
+	display: inline;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 31px;
+	padding-right: 31px;
+	border-radius: 32px;
+}
+
+.headerSocialsDiv {
+	display: flex;
+	justify-content: center;
+}
+
+.headerSocials {
+	margin-bottom: 100px;
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.headerSocials div {
+	height: 43px;
+	width: 43px;
+	background-color: #d5dffa;
+	border-radius: 30%;
+}
+
+.mediaImages {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 10px;
+	padding: 20px;
+}
+
+.grid-item {
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.grid-item img {
+	width: 100%;
+	height: auto;
+	display: block;
+	object-fit: cover;
+}
+
+.mediaVideos div {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.mediaVideos div h2 {
+	width: 70%;
+	text-align: left;
+}
+
+.mediaYoutube {
+	gap: 50px;
+	padding-bottom: 100px;
+	overflow-x: scroll;
+}
+
+/* CONTACT US CSS */
+
+.contactMain {
+	font-family: "Poppins", serif;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 30px;
+	background-color: #f1f0ff;
+	/* display: flex; */
+	/* flex-direction: column; */
+}
+
+.contactMain h1 {
+	margin-top: 28px;
+	margin-bottom: 8px;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 60px;
+}
+
+.contactTag {
+	color: #007dcc;
+	background-color: #007dcc1a;
+	display: inline;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 31px;
+	padding-right: 31px;
+	border-radius: 32px;
+}
+
+.contactSection {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 200px;
+}
+
+.contactSectionLeft {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.contactSectionRight {
+	border: 1px solid #1a1a1a;
+	width: 52%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 24px 16px;
+}
+
+.contactSectionDetails {
+	text-align: left;
+}
+
+.contactSection h2 {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px;
+}
+
+.contactSection h3 {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+}
+
+.contactSection p {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 21px;
+	font-family: "Inter", sans-serif;
+	text-decoration: underline;
+}
+
+.contactSectionVector {
+	background-color: #007dcc;
+	height: 44px;
+	width: 44px;
+	border-radius: 50%;
+}
+
+.contactTopForm {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.contactTopForm input {
+	width: 99%;
+	height: 48px;
+	border: none;
+}
+
+.contactMiddleForm {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contactMiddleForm div {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	flex-grow: 0.4;
+}
+
+.contactMiddleForm input {
+	width: 98%;
+	height: 48px;
+	border: none;
+}
+
+.contactBottomForm {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.contactBottomForm textarea {
+	width: 99%;
+	height: 146px;
+	border: none;
+}
+
+.contactSectionRight label {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.contactFormSubmit {
+	text-align: right;
+}
+
+.contactFormSubmit button {
+	color: white;
+	background-color: #007dcc;
+	height: 44px;
+	width: 188px;
+	border: none;
+}
+
+@media screen and (max-width: 1330px) {
+	.careerSocials {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.careerSocials {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 1030px) {
+	.careersMain {
+		flex-direction: column;
+	}
+	.careersSidebar {
+		width: 100%;
+	}
+	.careersSidebar div {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+	}
+	.careersContent {
+		width: 100%;
+	}
+	.careerSocials {
+		width: 40%;
+	}
+	.headerSocials {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.headerSocials {
+		width: 50%;
+	}
+	.contactSection {
+		flex-direction: column;
+	}
+	.contactSectionLeft {
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		order: 2;
+		margin-top: 50px;
+	}
+	.contactSectionRight {
+		width: 92%;
+		order: 1;
+	}
+	.headerSocials {
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	.careerSocials {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.headerSocials {
+		width: 60%;
+	}
+	.mediaMain h1 {
+		font-size: 48px;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	.headerSocials {
+		width: 70%;
+	}
+}
