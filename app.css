@@ -238,7 +238,7 @@ body {
 .contactSection {
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 200px;
+	padding-bottom: 173px;
 }
 
 .contactSectionLeft {
@@ -286,12 +286,26 @@ body {
 	height: 44px;
 	width: 44px;
 	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
 }
 
 .contactTopForm {
 	display: flex;
 	flex-direction: column;
 	text-align: left;
+}
+
+.contactSectionRight input {
+	font-family: "Poppins", serif;
+	padding: 0 10px;
+}
+
+.contactSectionRight input::placeholder,
+textarea::placeholder {
+	font-style: italic;
 }
 
 .contactTopForm input {
@@ -328,6 +342,8 @@ body {
 	width: 99%;
 	height: 146px;
 	border: none;
+	font-family: "Poppins", serif;
+	padding: 10px 10px;
 }
 
 .contactSectionRight label {
@@ -346,6 +362,7 @@ body {
 	height: 44px;
 	width: 188px;
 	border: none;
+	cursor: pointer;
 }
 
 /* ROCKWOOD PROPERTIES 2 CSS */
