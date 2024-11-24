@@ -82,6 +82,10 @@ body {
 	width: 43px;
 	background-color: #d5dffa;
 	border-radius: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #3772ff;
 }
 
 .careersApplyButton {
@@ -149,6 +153,14 @@ body {
 	width: 43px;
 	background-color: #d5dffa;
 	border-radius: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #007dcc;
+}
+
+.headerSocials a {
+	text-decoration: none;
 }
 
 .mediaImages {
@@ -182,6 +194,9 @@ body {
 }
 
 .mediaYoutube {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
 	gap: 50px;
 	padding-bottom: 100px;
 	overflow-x: scroll;
@@ -196,8 +211,6 @@ body {
 	padding-right: 10%;
 	padding-top: 30px;
 	background-color: #f1f0ff;
-	/* display: flex; */
-	/* flex-direction: column; */
 }
 
 .contactMain h1 {
@@ -334,6 +347,114 @@ body {
 	width: 188px;
 	border: none;
 }
+
+/* ROCKWOOD PROPERTIES 2 CSS */
+
+.rockPropsMain {
+	font-family: "Poppins", serif;
+	background-color: #f3f3f5;
+}
+
+.rockPropsNav {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-top: 30px;
+	padding: 20px 12px;
+	border-radius: 100px;
+	color: white;
+	font-family: "Inter", sans-serif;
+	background-color: #c3a99a;
+}
+
+.rockPropsNav img {
+	width: 7%;
+}
+
+.rockPropsNav button {
+}
+
+.rockPropsNavNavlinks {
+	display: flex;
+	gap: 50px;
+}
+
+.rockPropsHero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background: url("Background pattern.png");
+	background-size: contain;
+	border: 1px solid red;
+}
+
+.rockPropsHeroHero {
+	display: flex;
+	padding-left: 10%;
+}
+
+.rockPropsHeroLeft {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.rockPropsHeroTag {
+}
+
+.rockPropsHeroLeft h1 {
+	display: flex;
+	flex-direction: column;
+	font-size: 60px;
+	line-height: 72px;
+}
+
+.rockPropsHeroRight {
+	width: 60%;
+	display: flex;
+	justify-content: end;
+	align-items: start;
+}
+
+.rockPropsHeroRight img {
+	height: 90%;
+	padding-top: 50px;
+}
+
+.rockPropsFeatured {
+	background-color: #ffffff;
+	padding: 5% 10%;
+}
+
+.rockPropsTags {
+	color: #c3a99a;
+	background-color: #c3a99a1a;
+	display: inline;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 21px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 31px;
+	padding-right: 31px;
+	border-radius: 32px;
+}
+
+.rockPropsFeatured h2 {
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 57px;
+}
+
+.rockPropsRealEstate {
+	background-color: #ffffff;
+	padding: 0 10%;
+}
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 1330px) {
 	.careerSocials {
