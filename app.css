@@ -393,7 +393,7 @@ textarea::placeholder {
 	justify-content: space-between;
 	width: 80%;
 	margin-top: 30px;
-	padding: 20px 12px;
+	padding: 15px 12px;
 	border-radius: 100px;
 	color: white;
 	font-family: "Inter", sans-serif;
@@ -404,7 +404,27 @@ textarea::placeholder {
 	width: 7%;
 }
 
-.rockPropsNav button {
+.rockPropsNavButton {
+	display: flex;
+}
+
+.rockPropsNavButton button {
+	height: 3rem;
+	width: 197px;
+	border-radius: 44px;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	background: none;
+	cursor: pointer;
+}
+
+.rockPropsNavButton i {
+	color: #ffffff;
+	background-color: #c3a99a;
+	border-radius: 50%;
+	margin-left: -17px;
+	z-index: 90;
+	cursor: pointer;
 }
 
 .rockPropsNavNavlinks {
@@ -420,7 +440,6 @@ textarea::placeholder {
 	width: 100%;
 	background: url("Background pattern.png");
 	background-size: contain;
-	border: 1px solid red;
 }
 
 .rockPropsHeroHero {
@@ -433,6 +452,26 @@ textarea::placeholder {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+.rockPropsHeroButton {
+	display: flex;
+}
+
+.rockPropsHeroButton button {
+	height: 3rem;
+	width: 197px;
+	border-radius: 44px;
+	border: 2px solid #c3a99a;
+	color: #c3a99a;
+	cursor: pointer;
+}
+
+.rockPropsHeroButton i {
+	color: #c3a99a;
+	margin-left: -17px;
+	z-index: 90;
+	cursor: pointer;
 }
 
 .rockPropsHeroTag {
@@ -495,7 +534,7 @@ textarea::placeholder {
 }
 
 .rockPropsRealEstatePartners::-webkit-scrollbar {
-	display: none; /* For Chrome, Safari, and newer Edge */
+	display: none;
 }
 
 .rockPropsRealEstatePartners div {
@@ -509,17 +548,64 @@ textarea::placeholder {
 	border-radius: 8px;
 }
 
+.rockPropsTestimonialSection {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 840px;
+}
+
+.rockPropsTestimonialSection h2 {
+	font-family: "Inter", sans-serif;
+	font-size: 48px;
+	line-height: 58px;
+}
+
+.rockPropsTestimonials {
+	height: 433px;
+	width: 80%;
+	border: 1px solid red;
+}
+
+.rockPropsHomeVideos {
+	background-color: #ffffff;
+	border: 1px solid red;
+	padding: 5% 10%;
+}
+
+.rockPropsHomeVideos h2 {
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 57px;
+}
+
+.rockPropsHomeVideos p {
+	font-size: 20px;
+	line-height: 35px;
+	width: 55%;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1330px) {
 	.careerSocials {
 		width: 40%;
 	}
+	.rockPropsHeroRight img {
+		height: 80%;
+		padding-top: 50px;
+	}
 }
 
 @media screen and (max-width: 1100px) {
 	.careerSocials {
 		width: 60%;
+	}
+	.rockPropsHeroRight img {
+		height: 70%;
+		padding-top: 50px;
 	}
 }
 
@@ -552,6 +638,19 @@ textarea::placeholder {
 	}
 	.contactBottomForm textarea {
 		width: 95%;
+	}
+	.rockPropsHeroHero {
+		margin-top: 10%;
+	}
+	.rockPropsHeroRight {
+		display: none;
+	}
+	.rockPropsHeroLeft {
+		width: 90%;
+		text-align: center;
+	}
+	.rockPropsHeroButton {
+		justify-content: center;
 	}
 }
 
