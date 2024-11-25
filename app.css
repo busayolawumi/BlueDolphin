@@ -193,6 +193,16 @@ body {
 	text-align: left;
 }
 
+.mediaVideosScrollVector {
+	gap: 15px;
+}
+
+.mediaVideosScrollVector i {
+	color: #007dcc;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
 .mediaYoutube {
 	display: flex;
 	justify-content: space-between;
@@ -292,6 +302,12 @@ body {
 	color: white;
 }
 
+.bx-link-external {
+	background: linear-gradient(90deg, #44b5ff, #a323ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .contactTopForm {
 	display: flex;
 	flex-direction: column;
@@ -309,7 +325,7 @@ textarea::placeholder {
 }
 
 .contactTopForm input {
-	width: 99%;
+	width: 96.5%;
 	height: 48px;
 	border: none;
 }
@@ -327,7 +343,7 @@ textarea::placeholder {
 }
 
 .contactMiddleForm input {
-	width: 98%;
+	width: 92%;
 	height: 48px;
 	border: none;
 }
@@ -339,7 +355,7 @@ textarea::placeholder {
 }
 
 .contactBottomForm textarea {
-	width: 99%;
+	width: 96.5%;
 	height: 146px;
 	border: none;
 	font-family: "Poppins", serif;
@@ -471,6 +487,28 @@ textarea::placeholder {
 	padding: 0 10%;
 }
 
+.rockPropsRealEstatePartners {
+	display: flex;
+	gap: 30px;
+	overflow-x: scroll;
+	align-items: flex-start;
+}
+
+.rockPropsRealEstatePartners::-webkit-scrollbar {
+	display: none; /* For Chrome, Safari, and newer Edge */
+}
+
+.rockPropsRealEstatePartners div {
+	display: flex;
+	flex: 0 0 auto;
+	justify-content: center;
+	align-items: center;
+	height: 140px;
+	width: 270px;
+	border: 2px solid #c3a99a;
+	border-radius: 8px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1330px) {
@@ -506,6 +544,15 @@ textarea::placeholder {
 	.headerSocials {
 		width: 40%;
 	}
+	.contactTopForm input {
+		width: 95%;
+	}
+	.contactMiddleForm input {
+		width: 90%;
+	}
+	.contactBottomForm textarea {
+		width: 95%;
+	}
 }
 
 @media screen and (max-width: 760px) {
@@ -534,6 +581,15 @@ textarea::placeholder {
 @media screen and (max-width: 690px) {
 	.careerSocials {
 		width: 60%;
+	}
+	.contactTopForm input {
+		width: 95%;
+	}
+	.contactMiddleForm input {
+		width: 90%;
+	}
+	.contactBottomForm textarea {
+		width: 95%;
 	}
 }
 
