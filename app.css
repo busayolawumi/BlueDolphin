@@ -572,6 +572,48 @@ textarea::placeholder {
 .rockPropsTestimonials {
 	height: 433px;
 	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid red;
+	justify-content: space-between;
+}
+
+.rockPropsTestimonialContainer {
+	display: flex;
+	gap: 26px;
+	width: 100%;
+	height: 80%;
+}
+
+.rockPropsTestimonial {
+	border: 1px solid red;
+	width: 100%;
+	border-radius: 20px;
+}
+
+.rockPropsTestimonial:nth-child(2) {
+	background-color: #c3a99a;
+}
+
+.rockPropsTestimonialButton {
+	display: flex;
+}
+
+.rockPropsTestimonialButton button {
+	height: 3rem;
+	width: 197px;
+	border-radius: 44px;
+	border: 2px solid #c3a99a;
+	cursor: pointer;
+	background: none;
+}
+
+.rockPropsTestimonialButton i {
+	color: #c3a99a;
+	margin-left: -17px;
+	z-index: 90;
+	cursor: pointer;
 }
 
 .rockPropsHomeVideos {
