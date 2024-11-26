@@ -26,7 +26,7 @@ const observer = new IntersectionObserver((entries) => {
   }
 }, {
   root: null,
-  threshold: 1.0,
+  threshold: 0.5,
 });
 
 observer.observe(sentinel);
