@@ -764,6 +764,58 @@ textarea::placeholder {
 	outline: none;
 }
 
+.rockHomeAbout {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.rockHomeAbout h6 {
+	color: #c3a99a;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.rockHomeAbout h2 {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.rockHomeAbout p {
+	font-size: 16px;
+	line-height: 32px;
+}
+
+.rockHomeAbout button {
+	padding: 11px 28px;
+	border-radius: 50px;
+	border: none;
+	color: #ffffff;
+	background-color: #c3a99a;
+	font-size: 14px;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+.rockHomeAboutOne {
+	display: flex;
+	align-items: center;
+	height: 528px;
+	width: 90%;
+	gap: 54px;
+}
+
+.rockHomeAboutTwo {
+	display: flex;
+	align-items: center;
+	height: 528px;
+	width: 90%;
+	gap: 54px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1330px) {
