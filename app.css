@@ -676,6 +676,94 @@ textarea::placeholder {
 	width: 55%;
 }
 
+/* ROCK HOME CSS */
+
+.rockHomeMain {
+	background-color: #f3f3f5;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.rockHomeHero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+	color: white;
+	height: 70vh;
+	width: 100%;
+	background: url("rockHomeBg.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.rockHomeHero h1 {
+	margin: 0;
+}
+
+.rockHomeHero h1 {
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 81px;
+}
+
+.rockHomeHero p {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.rockHomeHeroSearch {
+	display: flex;
+	align-items: center;
+	background: white;
+	border-radius: 50px;
+	width: 60%;
+	overflow: hidden;
+	position: relative;
+}
+
+.rockHomeHeroSearchDropdown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 100%;
+	width: 15%;
+	background: #e5e5e5;
+}
+
+.rockHomeHeroSearchDropdownButton {
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+	background: none;
+}
+
+.rockHomeHeroSearchInput {
+	flex: 1;
+	border: none;
+	padding: 15px 20px;
+	font-size: 16px;
+	outline: none;
+}
+
+.rockHomeHeroSearchInput::placeholder {
+	color: #aaa;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.rockHomeHeroSearchButton {
+	background: #c3a99a;
+	color: #ffffff;
+	border: none;
+	height: 100%;
+	width: 7%;
+	cursor: pointer;
+	outline: none;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1330px) {
