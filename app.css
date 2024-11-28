@@ -304,7 +304,7 @@ body {
 
 .bx-link-external {
 	background: linear-gradient(90deg, #44b5ff, #a323ff);
-	-webkit-background-clip: text;
+	/* -webkit-background-clip: text; */
 	-webkit-text-fill-color: transparent;
 }
 
@@ -472,9 +472,6 @@ textarea::placeholder {
 	margin-left: -17px;
 	z-index: 90;
 	cursor: pointer;
-}
-
-.rockPropsHeroTag {
 }
 
 .rockPropsHeroLeft h1 {
@@ -702,18 +699,18 @@ textarea::placeholder {
 
 .rockHomeHero h1 {
 	margin: 0;
-}
-
-.rockHomeHero h1 {
 	font-size: 64px;
 	font-weight: 700;
 	line-height: 81px;
+	text-align: center;
 }
 
 .rockHomeHero p {
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 20px;
+	text-align: center;
+	padding: 0 50px;
 }
 
 .rockHomeHeroSearch {
@@ -805,7 +802,7 @@ textarea::placeholder {
 .rockHomeAboutOne {
 	display: flex;
 	align-items: center;
-	height: 528px;
+	padding: 72px 0;
 	width: 90%;
 	gap: 54px;
 }
@@ -813,7 +810,7 @@ textarea::placeholder {
 .rockHomeAboutTwo {
 	display: flex;
 	align-items: center;
-	height: 528px;
+	padding: 72px 0;
 	width: 90%;
 	gap: 54px;
 	border-bottom: 1px solid #e5e5e5;
@@ -822,23 +819,28 @@ textarea::placeholder {
 .rockHomeExplore {
 	width: 90%;
 	margin: 70px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .rockHomeExplore h2 {
 	font-weight: 700;
 	font-size: 32px;
 	line-height: 40px;
+	width: 100%;
 }
 
-.rockHomeExplorecCat {
+.rockHomeExploreCat {
 	display: flex;
 	gap: 24px;
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: 500;
+	width: 100%;
 }
 
-.rockHomeExplorecCat p:nth-child(1) {
+.rockHomeExploreCat p:nth-child(1) {
 	color: #c3a99a;
 	padding-bottom: 6px;
 	border-bottom: 1px solid #c3a99a;
@@ -851,7 +853,7 @@ textarea::placeholder {
 	justify-content: center;
 }
 
-.rockHomeExploreHomes button {
+.rockHomeExploreHomesButton {
 	margin-top: 36px;
 	font-size: 14px;
 	font-weight: 600;
@@ -861,6 +863,7 @@ textarea::placeholder {
 	border: none;
 	border-radius: 50px;
 	padding: 11px 26px;
+	width: 175px;
 }
 
 .rockHomeExploreHome {
@@ -888,6 +891,7 @@ textarea::placeholder {
 
 .rockHomeExploreHome img {
 	width: 100%;
+	height: 60%;
 	cursor: pointer;
 }
 
@@ -960,10 +964,12 @@ textarea::placeholder {
 	display: flex;
 	gap: 20px;
 	width: 90%;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .rockHomebenefitContainer div {
-	width: 400px;
+	width: 410px;
 }
 
 .rockHomebenefitContainer img {
@@ -971,15 +977,16 @@ textarea::placeholder {
 }
 
 .rockHomebenefit {
-	flex-grow: 1;
+	background-color: #ffffff;
+	width: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-.rockHomebenefit div {
+.rockHomebenefit h4,
+.rockHomebenefit p {
 	padding: 10px 32px;
-	height: 240px;
-	width: 419px;
-	background-color: #ffffff;
-	width: fit-content;
 }
 
 .rockHomebenefit h4 {
@@ -1004,6 +1011,7 @@ textarea::placeholder {
 	gap: 30px;
 	overflow-x: scroll;
 	align-items: flex-start;
+	margin-top: 66px;
 }
 
 .rockHomeTestimonials::-webkit-scrollbar {
@@ -1014,9 +1022,7 @@ textarea::placeholder {
 	display: flex;
 	flex-direction: column;
 	flex: 0 0 auto;
-	justify-content: center;
-	align-items: center;
-	height: 257px;
+	height: 230px;
 	width: 490px;
 	padding: 16px 36px;
 	border: 2px solid #c3a99a;
@@ -1026,11 +1032,212 @@ textarea::placeholder {
 .rockHomeTestimonials div h4 {
 	font-size: 20px;
 	font-weight: 600;
-	/* line-height: 25px; */
 }
 
-.rockhomeFAQ {
+.rockHomeFAQ {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	padding: 72px 0;
+}
+
+.rockHomeFAQDesc {
+	width: 40%;
+}
+
+.rockHomeFAQs {
+	width: 55%;
+}
+
+.rockHomeFAQ h6 {
+	color: #c3a99a;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.rockHomeFAQ h2 {
+	color: #08110c;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.rockHomeFAQ p {
+	color: #313131;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 27px;
+}
+
+.rockHomeFAQ h4 {
+	color: #08110c;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.rockHomeFAQDesc button {
+	margin-top: 36px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	color: #ffffff;
+	background-color: #c3a99a;
+	border: none;
+	border-radius: 50px;
+	padding: 11px 26px;
+}
+
+.rockHomeFAQs button {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}
+
+.faqItem {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.faqQuestion {
+	width: 100%;
+	text-align: left;
+	background: none;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 0;
+	color: #333;
+	cursor: pointer;
+	outline: none;
+}
+
+.faqAnswer {
+	display: block;
+	padding: 10px 0;
+	color: #555;
+}
+
+.faqAnswer p {
+	margin: 0;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+.rockHomeContactSection {
+	background-color: #e4e5df;
 	padding: 72px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.rockHomeContactLeft {
+	background-color: white;
+	width: 40%;
+	border-radius: 20px;
+	padding: 52px;
+}
+
+.rockHomeContactLeft input,
+.rockHomeContactLeft textarea {
+	padding: 21px 16px;
+	background-color: #f1f1f1;
+	border: none;
+	border-radius: 8px;
+	resize: none;
+}
+
+.rockHomeContactLeft textarea {
+	width: inherit;
+}
+
+.rockHomeContactLeft input::placeholder,
+.rockHomeContactLeft textarea::placeholder {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.rockHomeContactTopForm {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* .rockHomeContactTopForm input {
+	width: 50%;
+} */
+
+.rockHomeContactTopForm div {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+}
+
+.rockHomeContactMiddleForm {
+	display: flex;
+	flex-direction: column;
+}
+
+.rockHomeContactBottomForm {
+	display: flex;
+	flex-direction: column;
+}
+
+.rockHomeContactLeft button {
+	margin-top: 36px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	color: #ffffff;
+	background-color: #c3a99a;
+	border: none;
+	border-radius: 50px;
+	padding: 11px 26px;
+}
+
+.rockHomeContactRight {
+	width: 45%;
+}
+
+.rockHomeContactDetails {
+	border-top: 1px solid #cbcbcb;
+}
+
+.rockHomeContactDetail {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	gap: 24px;
+	margin: 10px 0;
+	height: 50px;
+}
+
+.rockHomeContactDetail div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.rockHomeContactDetail i {
+	color: #c3a99a;
+}
+
+.rockHomeContactDetail h4 {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 27px;
+}
+
+.rockHomeContactDetail p {
+	margin: 0;
+	color: #c3a99a;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 /* MEDIA QUERIES */
@@ -1043,6 +1250,9 @@ textarea::placeholder {
 		height: 80%;
 		padding-top: 50px;
 	}
+	.rockHomeAbout img {
+		width: 500px;
+	}
 }
 
 @media screen and (max-width: 1100px) {
@@ -1052,6 +1262,9 @@ textarea::placeholder {
 	.rockPropsHeroRight img {
 		height: 70%;
 		padding-top: 50px;
+	}
+	.rockHomeAbout img {
+		width: 400px;
 	}
 }
 
@@ -1101,6 +1314,35 @@ textarea::placeholder {
 	.rockPropsTestimonialSection h2 {
 		font-size: 35px;
 	}
+	.rockHomeAbout img {
+		width: 350px;
+	}
+	.rockHomeFAQ {
+		flex-direction: column;
+		align-items: center;
+		gap: 50px;
+	}
+
+	.rockHomeFAQDesc {
+		width: 100%;
+	}
+
+	.rockHomeFAQs {
+		width: 90%;
+	}
+
+	.rockHomeContactSection {
+		flex-direction: column;
+		align-items: center;
+		gap: 50px;
+	}
+
+	.rockHomeContactLeft {
+		width: 80%;
+	}
+	.rockHomeContactRight {
+		width: 80%;
+	}
 }
 
 @media screen and (max-width: 760px) {
@@ -1137,6 +1379,34 @@ textarea::placeholder {
 		font-size: 15px;
 		width: 100%;
 	}
+	.rockHomeAbout img {
+		display: none;
+	}
+	.rockHomeAboutOne,
+	.rockHomeAboutTwo {
+		gap: 0;
+	}
+	.rockHomeAboutTwo {
+		padding-top: 0;
+	}
+	.rockHomeHeroSearchDropdown {
+		width: 20%;
+	}
+	.rockHomeHeroSearchButton {
+		width: 10%;
+	}
+	.bx-search-alt-2 {
+		margin-left: -1px;
+	}
+	.rockHomebenefits h2 {
+		width: 70%;
+	}
+	.rockHomeContactLeft {
+		width: 90%;
+	}
+	.rockHomeContactRight {
+		width: 90%;
+	}
 }
 
 @media screen and (max-width: 690px) {
@@ -1151,6 +1421,9 @@ textarea::placeholder {
 	}
 	.contactBottomForm textarea {
 		width: 95%;
+	}
+	.rockHomeContactRight {
+		width: 100%;
 	}
 }
 
