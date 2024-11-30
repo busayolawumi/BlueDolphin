@@ -681,6 +681,9 @@ textarea::placeholder {
 .rockHomeMain {
 	background-color: #f3f3f5;
 	font-family: "Plus Jakarta Sans", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .rockHomeHero {
@@ -768,7 +771,6 @@ textarea::placeholder {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border-bottom: 1px solid #e5e5e5;
 }
 
 .rockHomeAbout h6 {
@@ -814,6 +816,177 @@ textarea::placeholder {
 	height: 528px;
 	width: 90%;
 	gap: 54px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.rockHomeExplore {
+	width: 90%;
+	margin: 70px 0;
+}
+
+.rockHomeExplore h2 {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.rockHomeExplorecCat {
+	display: flex;
+	gap: 24px;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+}
+
+.rockHomeExplorecCat p:nth-child(1) {
+	color: #c3a99a;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #c3a99a;
+}
+
+.rockHomeExploreHomes {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 20px;
+	justify-content: center;
+}
+
+.rockHomeExploreHomes button {
+	margin-top: 36px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	color: #ffffff;
+	background-color: #c3a99a;
+	border: none;
+	border-radius: 50px;
+	padding: 11px 26px;
+}
+
+.rockHomeExploreHome {
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	width: 400px;
+	height: 478px;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.rockHomeExploreHome p {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 500;
+}
+
+.rockHomeExploreHome h4 {
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 700;
+}
+
+.rockHomeExploreHome img {
+	width: 100%;
+	cursor: pointer;
+}
+
+.rockHomeExploreHomeTag {
+	color: #ffffff;
+	background-color: #c3a99a;
+	border-radius: 50px;
+	padding: 4px 8px;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.rockHomeExploreHome div div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rockHomeExploreHomeLike {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rockHomeExploreHomeLike p {
+	width: 55%;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	color: #c3a99a;
+	cursor: pointer;
+	cursor: pointer;
+}
+
+.rockHomeExploreHomeLike i {
+	cursor: pointer;
+}
+
+.bxs-heart {
+	color: #c3a99a;
+}
+
+.rockHomebenefits {
+	background-color: #e4e5df;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 72px 0;
+}
+
+.rockHomebenefits h2 {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 40px;
+	width: 40%;
+	text-align: center;
+}
+
+.rockHomebenefits p {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 36px;
+}
+
+.rockHomebenefitContainer {
+	display: flex;
+	gap: 20px;
+}
+
+.rockHomebenefitContainer div {
+	width: 400px;
+}
+
+.rockHomebenefitContainer img {
+	width: 100%;
+}
+
+.rockHomebenefit div {
+	padding: 10px 32px;
+	height: 240px;
+	width: 419px;
+	background-color: #ffffff;
+	width: fit-content;
+}
+
+.rockHomebenefit h4 {
+	font-size: 22px;
+	line-height: 27px;
+	font-weight: 700;
+}
+
+.rockHomebenefit p {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 500;
 }
 
 /* MEDIA QUERIES */
