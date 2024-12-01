@@ -959,6 +959,7 @@ textarea::placeholder {
 .rockHomebenefitContainer {
 	display: flex;
 	gap: 20px;
+	width: 90%;
 }
 
 .rockHomebenefitContainer div {
@@ -967,6 +968,10 @@ textarea::placeholder {
 
 .rockHomebenefitContainer img {
 	width: 100%;
+}
+
+.rockHomebenefit {
+	flex-grow: 1;
 }
 
 .rockHomebenefit div {
@@ -987,6 +992,45 @@ textarea::placeholder {
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 500;
+}
+
+.rockHomeTestimonialSection {
+	padding: 72px 0;
+	width: 90%;
+}
+
+.rockHomeTestimonials {
+	display: flex;
+	gap: 30px;
+	overflow-x: scroll;
+	align-items: flex-start;
+}
+
+.rockHomeTestimonials::-webkit-scrollbar {
+	display: none;
+}
+
+.rockHomeTestimonials div {
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 auto;
+	justify-content: center;
+	align-items: center;
+	height: 257px;
+	width: 490px;
+	padding: 16px 36px;
+	border: 2px solid #c3a99a;
+	border-radius: 8px;
+}
+
+.rockHomeTestimonials div h4 {
+	font-size: 20px;
+	font-weight: 600;
+	/* line-height: 25px; */
+}
+
+.rockhomeFAQ {
+	padding: 72px;
 }
 
 /* MEDIA QUERIES */
