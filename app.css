@@ -1095,13 +1095,13 @@ textarea::placeholder {
 	font-weight: 600;
 }
 
-.faqItem {
+.rockHomeFaqItem {
 	border-bottom: 1px solid #ddd;
 	margin-bottom: 10px;
 	width: 100%;
 }
 
-.faqQuestion {
+.rockHomeFaqQuestion {
 	width: 100%;
 	text-align: left;
 	background: none;
@@ -1114,13 +1114,13 @@ textarea::placeholder {
 	outline: none;
 }
 
-.faqAnswer {
+.rockHomeFaqAnswer {
 	display: block;
 	padding: 10px 0;
 	color: #555;
 }
 
-.faqAnswer p {
+.rockHomeFaqAnswer p {
 	margin: 0;
 	font-size: 14px;
 	line-height: 24px;
@@ -1264,8 +1264,7 @@ textarea::placeholder {
 	font-weight: 700;
 	line-height: 40px;
 	text-align: center;
-	border: 1px solid red;
-	width: 70%;
+	width: 80%;
 }
 
 .ecoFriendHomeFooter p {
@@ -1273,7 +1272,6 @@ textarea::placeholder {
 	font-weight: 500;
 	line-height: 20px;
 	text-align: center;
-	border: 1px solid red;
 	width: 90%;
 }
 
