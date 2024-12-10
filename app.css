@@ -1167,10 +1167,6 @@ textarea::placeholder {
 	justify-content: space-between;
 }
 
-/* .rockHomeContactTopForm input {
-	width: 50%;
-} */
-
 .rockHomeContactTopForm div {
 	display: flex;
 	flex-direction: column;
@@ -1238,6 +1234,59 @@ textarea::placeholder {
 	color: #c3a99a;
 	font-size: 16px;
 	line-height: 24px;
+}
+
+.ecoFriendHomeFooter {
+	background: url("ecoFooterImg.jpeg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 72px;
+	border-radius: 20px;
+}
+
+.ecoFriendHomeFooter div {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	background-color: white;
+	width: 50%;
+	border-radius: 20px;
+	padding: 38px 47px;
+	margin: 106px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ecoFriendHomeFooter h2 {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid red;
+	width: 70%;
+}
+
+.ecoFriendHomeFooter p {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: center;
+	border: 1px solid red;
+	width: 90%;
+}
+
+.ecoFriendHomeFooter button {
+	margin-top: 36px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	color: #ffffff;
+	background-color: #c3a99a;
+	border: none;
+	border-radius: 50px;
+	padding: 11px 26px;
 }
 
 /* MEDIA QUERIES */
@@ -1322,15 +1371,12 @@ textarea::placeholder {
 		align-items: center;
 		gap: 50px;
 	}
-
 	.rockHomeFAQDesc {
 		width: 100%;
 	}
-
 	.rockHomeFAQs {
 		width: 90%;
 	}
-
 	.rockHomeContactSection {
 		flex-direction: column;
 		align-items: center;
@@ -1342,6 +1388,15 @@ textarea::placeholder {
 	}
 	.rockHomeContactRight {
 		width: 80%;
+	}
+	.ecoFriendHomeFooter {
+		margin: 72px;
+	}
+
+	.ecoFriendHomeFooter div {
+		width: 60%;
+		padding: 38px 47px;
+		margin: 50px;
 	}
 }
 
