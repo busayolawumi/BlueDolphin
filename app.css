@@ -1630,7 +1630,6 @@ textarea::placeholder {
 
 .rockReserveOrderRight input {
 	padding: 12px;
-	/* width: 100%; */
 }
 
 .rockReserveOrderRight select {
@@ -1937,6 +1936,17 @@ textarea::placeholder {
 	.rockSalePropertyLike {
 		text-align: right;
 	}
+
+	.rockReserveOrder {
+		flex-direction: column;
+	}
+
+	.rockReserveOrderLeft {
+		width: 90%;
+	}
+	.rockReserveOrderRight {
+		width: 90%;
+	}
 }
 
 @media screen and (max-width: 760px) {
@@ -2004,6 +2014,19 @@ textarea::placeholder {
 	.rockSalePropertyDetail span {
 		width: 70%;
 	}
+	.rockReserveMediaPics {
+		grid-template-columns: 1fr;
+	}
+
+	.image1,
+	.image2,
+	.image3 {
+		grid-row: auto;
+		grid-column: auto;
+	}
+	.image3 button {
+		bottom: 15%;
+	}
 }
 
 @media screen and (max-width: 690px) {
@@ -2021,6 +2044,9 @@ textarea::placeholder {
 	}
 	.rockHomeContactRight {
 		width: 100%;
+	}
+	.image3 button {
+		bottom: 20%;
 	}
 }
 
