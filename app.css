@@ -1614,12 +1614,12 @@ textarea::placeholder {
 .rockReserveFormTop {
 	display: flex;
 	justify-content: space-between;
+	gap: 27px;
 }
 
-.rockReserveFormTop {
-	display: flex;
-	justify-content: space-between;
-	gap: 27px;
+form label {
+	font-size: 12px;
+	font-weight: 700;
 }
 
 .rockReserveFormTopInput {
@@ -1648,13 +1648,13 @@ textarea::placeholder {
 	margin-bottom: 47px;
 }
 
-.rockReserveFormBottom {
+.rockReserveFormAfter {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.rockReserveFormBottom p {
+.rockReserveFormAfter p {
 	margin: 0;
 }
 
